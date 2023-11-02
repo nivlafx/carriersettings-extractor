@@ -21,13 +21,13 @@ m carriersettings_extractor
 ## Standalone usage
 
 ```
-out/host/linux-x86/bin/carriersettings_extractor vendor/google_devices/<codename>/proprietary/product/etc/CarrierSettings/ /root/dir/of/aosp/tree/ /output/path/of/apns-conf.xml /output/path/of/carrierconfig-vendor.xml <codename>
+out/host/linux-x86/bin/carriersettings_extractor vendor/google/<codename>/proprietary/product/etc/CarrierSettings/ /root/dir/of/aosp/tree/ /output/path/of/apns-conf.xml /output/path/of/carrierconfig-vendor.xml <codename>
 ```
 
-For example, on the Pixel 6 (oriole) whilst in the root of the AOSP tree, you would run the below to produce apns-conf.xml and carrierconfig-vendor.xml in the root of your AOSP tree.
+For example, on the Pixel 7 Pro (cheetah) whilst in the root of the AOSP tree, you would run the below to produce apns-conf.xml and carrierconfig-vendor.xml in the root of your AOSP tree.
 
 ```
-out/host/linux-x86/bin/carriersettings_extractor vendor/google_devices/oriole/proprietary/product/etc/CarrierSettings/ . apns-conf.xml carrierconfig-vendor.xml oriole
+out/host/linux-x86/bin/carriersettings_extractor vendor/google/cheetah/proprietary/product/etc/CarrierSettings/ . apns-conf.xml carrierconfig-vendor.xml cheetah
 ```
 
 ## Inline usage
